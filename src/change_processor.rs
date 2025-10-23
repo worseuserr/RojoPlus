@@ -1,6 +1,7 @@
 use std::{
 	fs,
 	sync::{Arc, Mutex},
+	time::Duration,
 };
 
 use crossbeam_channel::{select, Receiver, RecvError, Sender};
@@ -68,7 +69,7 @@ impl ChangeProcessor {
 				loop {
 					// Prevent streaming changes while STREAM_LOCK exists.
 					// This allows the SDK build script to work.
-					if (std::path::Path::new("STREAM_LOCK").exists()) {
+					if std::path::Path::new("STREAM_LOCK").exists() {
 						log::trace!("STREAM_LOCK present: deferring change processing");
 						std::thread::sleep(Duration::from_millis(250));
 						continue ;
