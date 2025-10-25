@@ -31,7 +31,7 @@ jobs:
           version: 'v1.1.0'
 
       - name: Build Plugin
-        run: rojop build plugin.project.json --output RojoPlus.rbxm
+        run: rojo build plugin.project.json --output RojoPlus.rbxm
 
       - name: Upload Plugin to Release
         env:
