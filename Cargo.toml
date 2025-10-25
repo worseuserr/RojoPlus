@@ -1,17 +1,18 @@
 [package]
-name = "rojo"
+name = "rojop"
 version = "7.7.0"
 rust-version = "1.83"
 authors = [
     "Lucien Greathouse <me@lpghatguy.com>",
     "Micah Reid <git@dekkonot.com>",
     "Ken Loeffler <kenloef@gmail.com>",
+	"Oskar Wyciszkiewicz <oskar.rabo@gmail.com>",
 ]
 description = "Enables professional-grade development tools for Roblox developers"
 license = "MPL-2.0"
 homepage = "https://rojo.space"
 documentation = "https://rojo.space/docs"
-repository = "https://github.com/rojo-rbx/rojo"
+repository = "https://github.com/worseuserr/RojoPlus"
 readme = "README.md"
 edition = "2021"
 build = "build.rs"

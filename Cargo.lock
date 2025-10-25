@@ -1883,7 +1883,15 @@ dependencies = [
 ]
 
 [[package]]
-name = "rojo"
+name = "rojo-insta-ext"
+version = "0.1.0"
+dependencies = [
+ "serde",
+ "serde_yaml",
+]
+
+[[package]]
+name = "rojop"
 version = "7.7.0"
 dependencies = [
  "anyhow",
@@ -1934,14 +1942,6 @@ dependencies = [
  "walkdir",
  "winreg 0.10.1",
  "yaml-rust2",
-]
-
-[[package]]
-name = "rojo-insta-ext"
-version = "0.1.0"
-dependencies = [
- "serde",
- "serde_yaml",
 ]
 
 [[package]]
