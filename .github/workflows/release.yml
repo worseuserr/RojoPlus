@@ -85,7 +85,7 @@ jobs:
     name: Build (${{ matrix.target }})
     runs-on: ${{ matrix.os }}
     env:
-      BIN: rojo
+      BIN: rojop
     steps:
       - uses: actions/checkout@v4
         with:
