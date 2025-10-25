@@ -50,7 +50,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        # https://doc.rust-lang.org/rustc/platform-support.html
+        #  https://doc.rust-lang.org/rustc/platform-support.html
         include:
           - host: linux
             os: ubuntu-22.04
