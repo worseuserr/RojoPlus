@@ -1,7 +1,8 @@
 # Rojo Changelog
 
-## Unreleased
+## 7.7.0 - October 25th, 2025
 
+* Added support for STREAM_LOCK files to pause file syncing
 * Fixed a bug where the last sync timestamp was not updating correctly in the plugin ([#1132])
 * Improved the reliability of sync replacements by adding better error handling and recovery ([#1135])
 
