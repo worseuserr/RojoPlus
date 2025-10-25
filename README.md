@@ -1,3 +1,19 @@
+### Rojo+
+
+**Rojo+** is a fork of **Rojo** created for a better developer experience.
+
+It comes with various QOL features that will save you extra work if working on advanced projects.
+
+Additionally, **Rojo+** has its own, build-driven SDK -> https://github.com/worseuserr/RojoSDK 
+
+Current features:
+- SDK for projects
+- Support for locking the update stream (STREAM_LOCK)
+
+STREAM_LOCK: **Rojo+** will not sync changes to source files while there is a file called STREAM_LOCK in the *cwd*.
+
+<hr />
+
 <div align="center">
     <a href="https://rojo.space"><img src="assets/brand_images/logo-512.png" alt="Rojo" height="217" /></a>
 </div>
